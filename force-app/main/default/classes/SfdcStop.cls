@@ -9,7 +9,7 @@ public with sharing class SfdcStop {
         actObj.Rating = 'Hot';
         actObj.Phone = '8309351867';
         actObj.Fax= 'myFax1';
-        actObj.Website = 'www.website.com';
+        actObj.Website = 'www.website1.com';
         insert actObj;
     }
 }
