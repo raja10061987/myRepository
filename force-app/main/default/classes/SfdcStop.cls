@@ -5,7 +5,7 @@ public with sharing class SfdcStop {
     public static void createAccount()
     {
         Account actObj = new Account();
-        actObj.Name= 'suman';
+        actObj.Name= 'suman1';
         actObj.Rating = 'Hot';
         actObj.Phone = '8309351867';
         actObj.Fax= 'myFax1';
