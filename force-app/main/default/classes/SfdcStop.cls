@@ -12,4 +12,13 @@ public with sharing class SfdcStop {
         actObj.Website = 'www.website1.com';
         insert actObj;
     }
+    public static void createContact()
+    {
+        Contact conObj = new Contact();
+        conObj.FirstName = 'pavan';
+        conObj.LastName = 'reddy';
+        conObj.Email = 'aa@gmail.com';
+        conObj.Phone = '8888888';
+        insert conObj;
+    }
 }
